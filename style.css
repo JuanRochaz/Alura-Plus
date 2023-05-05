@@ -25,6 +25,9 @@ body{
     align-items: center;
     text-align: center;
 }
+.background-resposivo{
+    display: none;
+}
 .container {
     height: 100vh;
     display: grid;

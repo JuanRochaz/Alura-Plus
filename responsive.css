@@ -1,0 +1,30 @@
+@media screen and (max-width: 855px) {
+
+    .principal, .container, .dispositivos, .dispositivos__lista, .rodape, .rodape__lista{
+        display: flex;
+        flex-direction: column;
+        width: 60%;
+        margin: 5% auto;
+        height: 60%;
+        align-items: center;
+        text-align: center;
+        background-image: url(none);
+    }
+    .background-resposivo{
+        display: block;
+    }
+    .rodape__logo{
+        width: 30%;
+        margin: 1em auto;
+    }
+
+    .container__caixa{
+        margin: 0;
+    }
+    .dispositivos__titulo{
+        font-size: 2rem;
+    }
+    .descricao__titulo{
+        font-size: 2rem;
+    }
+}
